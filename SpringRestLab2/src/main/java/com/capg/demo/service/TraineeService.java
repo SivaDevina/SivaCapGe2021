@@ -9,5 +9,5 @@ public interface TraineeService {
 	public Trainee findTrainee(int traineeId) ;
 	public List<Trainee> createTrainee(Trainee trainee);
 	public List<Trainee> removeTrainee(int traineeid);
-	public List<Trainee> updateTrainee(Trainee trainee) ;
+	public List<Trainee> updateTrainee(Trainee trainee);
 }
